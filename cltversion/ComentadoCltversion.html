@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- Definindo o charset para UTF-8 para suportar caracteres especiais -->
+    <meta charset="UTF-8">
+    <!-- Configurando a visualização para dispositivos móveis com largura igual à largura do dispositivo -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Título da página -->
+    <title>Trabalho Luiz gerenciamento software</title>
+    <style>
+        /* Estilo para o corpo da página */
+        body {
+            font-family: Arial, sans-serif; /* Define a fonte do texto */
+            line-height: 1.6; /* Ajusta a altura da linha para facilitar a leitura */
+            margin: 0; /* Remove a margem padrão */
+            padding: 0; /* Remove o preenchimento padrão */
+            color: #333; /* Define a cor do texto */
+            background-color: #f4f4f4; /* Define a cor de fundo da página */
+        }
+        /* Estilo para o cabeçalho */
+        header {
+            background: #333; /* Cor de fundo escura para o cabeçalho */
+            color: #fff; /* Cor do texto branca */
+            padding: 1rem; /* Espaçamento interno */
+            text-align: center; /* Alinhamento do texto no centro */
+        }
+        /* Container para centralizar o conteúdo e adicionar margem */
+        .container {
+            width: 80%; /* Largura do container */
+            margin: auto; /* Margem automática para centralizar */
+            overflow: hidden; /* Para evitar que o conteúdo ultrapasse o container */
+        }
+        /* Estilo para as seções */
+        section {
+            padding: 1.5rem; /* Espaçamento interno */
+            margin: 1rem 0; /* Margem superior e inferior */
+            background: #fff; /* Cor de fundo branca */
+            border-radius: 8px; /* Bordas arredondadas */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra leve para o efeito de profundidade */
+        }
+        /* Estilo para os títulos */
+        h1, h2 {
+            color: #333; /* Cor do texto dos títulos */
+        }
+        /* Estilo específico para o título principal */
+        h1 {
+            margin-top: 0; /* Remove a margem superior do título principal */
+        }
+        /* Estilo para os cartões de informação */
+        .card {
+            padding: 1rem; /* Espaçamento interno */
+            margin: 1rem 0; /* Margem superior e inferior */
+            background: #e2e2e2; /* Cor de fundo cinza claro */
+            border-radius: 8px; /* Bordas arredondadas */
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Sombra leve para o efeito de profundidade */
+        }
+        /* Estilo para o rodapé */
+        footer {
+            background: #333; /* Cor de fundo escura para o rodapé */
+            color: #fff; /* Cor do texto branca */
+            text-align: center; /* Alinhamento do texto no centro */
+            padding: 1rem; /* Espaçamento interno */
+            position: fixed; /* Fixar o rodapé na parte inferior */
+            bottom: 0; /* Posicionar na parte inferior */
+            width: 100%; /* Largura total da página */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Seção para controle de versão -->
+        <section>
+            <h2>Controle de Versão</h2>
+            <div class="card">
+                <p>O controle de versão é uma prática muito importante para registar o código, com ele é possível acompanhar as mudanças e implementações do código durante o tempo. Ferramentas como GitHub são muito utilizadas por programadores para acompanhar o desenvolvimento de seu código, permitindo utilizar versões anteriores etc.</p>
+                <ul>
+                    <li><strong>Git:</strong> Ferramenta muito utilizada por empresas para acompranhar o desenvolvimento de seu site e as atividades do developer.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Seção para controle de mudanças -->
+        <section>
+            <h2>Controle de Mudanças</h2>
+            <div class="card">
+                <p>O Controle de Mudanças refere-se ao processo de gerenciar as alterações no software de forma estruturada e documentada. Isso inclui a identificação, avaliação, aprovação e implementação das mudanças. Com o objetivo é minimizar riscos e garantir que as alterações não introduzam problemas inesperados.</p>
+                <ul>
+                    <li><strong>Registro de Mudanças:</strong> Documentar todas as mudanças propostas e realizadas.</li>
+                    <li><strong>Avaliação pós implementação:</strong> Analisar como a mudança afetará o sistema e os usuários.</li>
+                    <li><strong>Aprovação:</strong> Garantir que as mudanças sejam revisadas e aprovadas antes da implementação.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Seção para integração contínua -->
+        <section>
+            <h2>Integração Contínua</h2>
+            <div class="card">
+                <p>A Integração Contínua é uma prática de desenvolvimento onde o código é integrado e testado continuamente em um repositório compartilhado. Isso ajuda a detectar e corrigir problemas rapidamente, melhorando a qualidade do software e reduzindo o tempo de desenvolvimento.</p>
+                <ul>
+                    <li><strong>Automatização:</strong> Automatizar o processo de construção e compilação do código, e executar testes de forma automática para garantir a funcionalidade do código</li>
+                    <li><strong>Feedback Rápido:</strong> Fornecer feedback imediato sobre a qualidade do código e a integração.</li>
+                </ul>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
